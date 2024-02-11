@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (open/close on click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear My Other Pisnge ng Pwet.</strong>
+                        <p>
+                            First of all my love, i'm sorry. We both know i dont need to mention it, this past few weeks its been rough even sa monthsarry natin nag away tayo
+                            nakakapagod man di ko parin pinili bumitaw kasi i always find a reason to stay sayo, you were my home sounds cringe pero it is. And happy valentines
+                            my love, this will not be a special letter pero mas mahirap gawin to sa handwritten HAHAHAHHAHAHAHAHA :D, anyways to all the downs that we encountered
+                            ikaw na siguro yung hindi bumi-bitaw satin and i'm sorry dahil madalas naiisip kong iwan ka pero you know how much i will regret that kaya ayaw mo and
+                            gustong-gusto mo na talaga ata ako eh. To all the pains na pinadanas ko sayo, sana mapatawad moko and hayaan mo akong bumawi sayo my love, I Love You so
+                            much. Happy Valentines, i hope this letter will reach your heart love you.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
